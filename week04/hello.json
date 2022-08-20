@@ -1,0 +1,21 @@
+{
+    "student": [
+        {
+            "name": "ozzy",
+            "id": "1234",
+            "courses": "music",
+            "grade": "failed",
+            "semester": "one",
+            "year": 2022
+        },
+        {
+            "name": "slash",
+            "id": "4567",
+            "courses": "Science",
+            "grade": "failed",
+            "semester": "one",
+            "year": 2022
+
+        }
+    ]
+}

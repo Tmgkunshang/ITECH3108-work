@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="utf-8">
+      <title>JSON Tool</title>
+      <style>textarea { width: 100%; min-height: 20em; }</style>
+    </head>
+    <body>
+      <textarea id="json_text" placeholder="Add your JSON here."></textarea>
+      <button>Run queries</button>
+      <textarea id="output" disabled></textarea>
+    
+      <script>
+        const button = document.querySelector('button');
+        const textarea = document.getElementById('json_text');
+        const output = document.getElementById('output');
+    
+        button.addEventListener('click', function() {
+          output.value = "";
+          let jsonObj;
+    
+          try {
+            jsonObj = JSON.parse(textarea.value);
+          } catch(e) {
+            output.value = "Error: " + e.message;
+            return;
+          }
+          
+          output.value += "Type: " + typeof(jsonObj) + "\n";
+    
+          // TODO: Write some queries here
+    
+        });
+      </script>
+    </body>
+    </html>

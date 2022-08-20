@@ -1,0 +1,13 @@
+{
+    "student": {
+        "id": [1234, 4567, 89989],
+        "name": ["OzzyOsbourne", "Slash", "Axl rose"],
+        "course": ["music", "science", "math"],
+        "grades": ["failed", "pass", "distiction", "competent"],
+        "semester": {
+            "name": "semester one",
+            "year": 2022
+        }
+    }
+    
+}

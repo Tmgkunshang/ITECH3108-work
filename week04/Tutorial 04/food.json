@@ -1,0 +1,31 @@
+{
+    "products": [
+        {
+            "type": "chocolate",
+            "title": "Whipple-Scrumptious Fudgemallow Delight",
+            "price": "$30 per box of 20",
+            "Allergens": "Contains dairy"
+        },
+        {
+            "type": "Lollies",
+            "title": "Everlasting Gobstoppers",
+            "price": "$55 per box of 25",
+            "Allergens": "Contains acetal homopolymer"
+        },
+        {
+            "type": "Lollies",
+            "title": "Three-Course-Meal Gum",
+            "price": ["$30 per box of 20", "$15 per box of 11. $50 for large box of 40"],
+            "Allergens": "None"
+        },
+        {
+            "type": "Lollies",
+            "title": "Lickable Wallpaper",
+            "price": "$30 m2",
+            "Allergens": "Contains Snozzberries"
+
+        }
+
+    ]
+}
+

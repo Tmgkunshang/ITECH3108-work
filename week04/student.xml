@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <collection>
+        <student id="1234">
+            <studentname>Ozzy Osbourne</studentname>
+             <course name="music">
+                 <grade>Failed</grade>
+                </course>
+                <course name="Science">
+                    <grade>Pass</grade>
+                   </course>
+                   <course name="Math">
+                    <grade>Pass</grade>
+                   </course>
+                   
+        </student>
+        <student id="4567">
+            <studentname>Slash</studentname>
+             <course name="music">
+                 <grade>Pass</grade>
+                </course>
+                <course name="Science">
+                    <grade>Distinction</grade>
+                   </course>
+                   <course name="Math">
+                    <grade>Competent</grade>
+                   </course>
+        </student>
+        <student id="89989">
+            <studentname>Axl rose</studentname>
+             <course name="music">
+                 <grade>Failed</grade>
+                </course>
+                <course name="Science">
+                    <grade>pass</grade>
+                   </course>
+                   <course name="Math">
+                    <grade>distinction</grade>
+                   </course>
+        </student>
+    </collection>
